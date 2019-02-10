@@ -22,6 +22,18 @@ function dataCreationAndAssignment (phase, variableName, equalsToCreation ) {
   return 'var ' + variableName + ' ;' 
 };
 
+
+// Conditions is assumed to be an array
+// list of variable names
+function ifstatement (conditions, variablesNames ) {
+  if (variablesNames.length == 1){
+    return 'if ' + variableNames[0];
+  }
+  return 'if ' + variablesNames[0] + conditions [0] + variablesNames [1]; 
+  
+};
+
+
 restService.post("/", function(req, res) {
   program = program.concat ('\n' + req.body.queryResult.queryText);
 
@@ -36,7 +48,7 @@ restService.post("/", function(req, res) {
     console.log("dataCreation");
     program = program + '\n' + dataCreationAndAssignment ( req.body.queryResult.queryText,  req.body.queryResult.parameters.variableName, req.body.queryResult.parameters.equalsTo_creation );
   } else if(intent ==="if statement"){
-    console.log("if");
+    console.log("if Statement");
   } else if(intent === "arithmetic"){
     console.log("arithmetic");
   }
