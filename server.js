@@ -32,7 +32,7 @@ function ifstatement(conditions, variableNames) {
   if (variableNames.length == 1) {
     return 'if ' + variableNames[0];
   }
-  return 'if ' + variableNames[0] + ' ' + conditions[0] + ' ' + variableNames[1];
+  return 'if ' + variableNames[0] + '' + conditions[0] + '' + variableNames[1];
 
 };
 
@@ -71,13 +71,13 @@ restService.post("/", function (req, res) {
     //create data assignment
     if (intent === "dataCreateAndAssignment") {
       console.log("dataCreation");
-      program = program + ' \n ' + dataCreationAndAssignment(req.body.queryResult.queryText, req.body.queryResult.parameters.variableName, req.body.queryResult.parameters.equalsTo_creation);
+      program = program + ' ' + dataCreationAndAssignment(req.body.queryResult.queryText, req.body.queryResult.parameters.variableName, req.body.queryResult.parameters.equalsTo_creation);
     }
 
     //if statement
     else if (intent === "if statement") {
       console.log("inside if statement:");
-      program = program + '\n' + ifstatement(req.body.queryResult.parameters.conditionals, req.body.queryResult.parameters.variableNames);
+      program = program + ' ' + ifstatement(req.body.queryResult.parameters.conditionals, req.body.queryResult.parameters.variableNames);
       console.log(program);
     }
 
