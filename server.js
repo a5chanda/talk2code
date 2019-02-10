@@ -37,13 +37,13 @@ restService.post("/", function(req, res) {
 
 
   var speech = req.body.queryResult && req.body.queryResult.parameters ? 
-              req.body.queryResult.parameters: "Seems like some problem. Speak again.";
+              req.body.queryResult.queryText: "Seems like some problem. Speak again.";
     //console.log (req.body.queryResult.parameters);
     //console.log("here"); 
   return res.json({
-    speech: req.body.queryResult.queryText,
+    speech: speech,
     displayText: speech,
-    source: "webhook-echo-sample"
+    source: "talk2code"
   });
 });
 
