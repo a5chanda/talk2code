@@ -90,12 +90,11 @@ restService.post("/", function (req, res) {
     else if (intent === "compile") {
       console.log("End");
       console.log(program);
-      var a = [];
-      a.push(program);
+      
       //return program to the dialog flow
       return res.json({
         fulfillmentText: "displayed response",
-        fulfillmentMessages: a,
+        fulfillmentMessages: program,
         source: "talk2code",
       });
     }
