@@ -17,19 +17,31 @@ restService.use(bodyParser.json());
 
 
 
-restService.post("/dataCreateAndAssignment", function(req, res) {
+restService.post("/", function(req, res) {
   program = program.concat ('\n' + req.body.queryResult.queryText);
+
   console.log(req.body.queryResult.queryText);
+  console.log("Intent");
+  console.log(req.body.queryResult.intent.displayName);
   console.log("prog")
   console.log(program);
+  let intent = req.body.queryResult.intent.displayName
+
+  if(intent === "dataCreationAndAssignment"){
+    console.log("dataCreation");
+  } else if(intent ==="if statement"){
+    console.log("if");
+  } else if(intent === "arithmetic"){
+    console.log("arithmetic");
+  }
 
 
-  var speech =
-    req.body.queryResult && req.body.queryResult.parameters ? req.body.queryResult.parameters: "Seems like some problem. Speak again.";
+  var speech = req.body.queryResult && req.body.queryResult.parameters ? 
+              req.body.queryResult.parameters: "Seems like some problem. Speak again.";
     //console.log (req.body.queryResult.parameters);
     //console.log("here"); 
   return res.json({
-    speech: req.body.queryResult,
+    speech: req.body.queryResult.queryText,
     displayText: speech,
     source: "webhook-echo-sample"
   });
