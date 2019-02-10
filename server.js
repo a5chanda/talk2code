@@ -94,9 +94,9 @@ restService.post("/", function (req, res) {
       //return program to the dialog flow
       return res.json({
         fulfillmentText: "displayed response",
-        fulfillmentMessages: [{
-          text: a,
-        }],
+        fulfillmentMessages: [
+          {text: {"text": a}}
+        ],
         source: "talk2code",
       });
     }
