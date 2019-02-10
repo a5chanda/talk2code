@@ -22,10 +22,6 @@ function dataCreationAndAssignment (phase, variableName, equalsToCreation ) {
   return 'var ' + variableName + ' ;' 
 };
 
-function (){
-
-}
-
 restService.post("/", function(req, res) {
   program = program.concat ('\n' + req.body.queryResult.queryText);
 
@@ -44,9 +40,19 @@ restService.post("/", function(req, res) {
   } else if(intent === "arithmetic"){
     console.log("arithmetic");
   }
+  else if(intent === "End"){
+    console.log("End");
+    
+    //return program to the dialog flow
+    return res.json({
+      fulfillmentText: program,
+      //displayText: speech,
+      source: "talk2code"
+    });
+  }
 
 
-  var speech = req.body.queryResult && req.body.queryResult.parameters ? 
+  var program = req.body.queryResult && req.body.queryResult.parameters ? 
               req.body.queryResult.queryText: "Seems like some problem. Speak again.";
     //console.log (req.body.queryResult.parameters);
     //console.log("here"); 
