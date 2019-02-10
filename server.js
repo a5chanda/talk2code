@@ -41,9 +41,10 @@ restService.post("/", function(req, res) {
     //console.log (req.body.queryResult.parameters);
     //console.log("here"); 
   return res.json({
-    speech: speech,
-    displayText: speech,
-    //source: "talk2code"
+    
+    fulfillmentText: speech,
+    //displayText: speech,
+    source: "talk2code"
   });
 });
 
