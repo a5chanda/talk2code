@@ -88,7 +88,7 @@ restService.post("/", function (req, res) {
     } 
     
     //end
-    else if (intent === "End") {
+    else if (intent === "compile") {
       console.log("End");
       console.log(program);
       //return program to the dialog flow
