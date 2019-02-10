@@ -22,6 +22,10 @@ function dataCreationAndAssignment (phase, variableName, equalsToCreation ) {
   return 'var ' + variableName + ' ;' 
 };
 
+function (){
+
+}
+
 restService.post("/", function(req, res) {
   program = program.concat ('\n' + req.body.queryResult.queryText);
 
@@ -34,7 +38,7 @@ restService.post("/", function(req, res) {
 
   if(intent === "dataCreationAndAssignment"){
     console.log("dataCreation");
-    program = '\n' + dataCreationAndAssignment ( req.body.queryResult.queryText,  req.body.queryResult.parameters.variableName, req.body.queryResult.parameters.equalsTo_creation );
+    program = program + '\n' + dataCreationAndAssignment ( req.body.queryResult.queryText,  req.body.queryResult.parameters.variableName, req.body.queryResult.parameters.equalsTo_creation );
   } else if(intent ==="if statement"){
     console.log("if");
   } else if(intent === "arithmetic"){
