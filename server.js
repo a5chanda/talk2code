@@ -1,7 +1,7 @@
 "use strict";
 
 const express = require("express");
-const bodyParser = require("npm install body-parser --save");
+const bodyParser = require("body-parser");
 
 const restService = express();
 
@@ -15,12 +15,10 @@ restService.use(bodyParser.json());
 
 restService.post("/dataCreateAndAssignment", function(req, res) {
   var speech =
-    req.body.result &&
-    req.body.result.parameters &&
-    req.body.result.parameters
-      ? req.body.result.parameters
-      : "Seems like some problem. Speak again.";
-      Console.log (req.body.result.parameters); 
+    req.body.result && req.body.result.parameters && req.body.result.parameters ? 
+    req.body.result.parameters: "Seems like some problem. Speak again.";
+      console.log (req.body.result.parameters);
+      console.log("here"); 
   return res.json({
     speech: speech,
     displayText: speech,
