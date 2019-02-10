@@ -43,7 +43,7 @@ restService.post("/", function(req, res) {
   return res.json({
     speech: speech,
     displayText: speech,
-    source: "talk2code"
+    //source: "talk2code"
   });
 });
 
