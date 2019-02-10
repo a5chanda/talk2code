@@ -37,8 +37,8 @@ restService.post("/dataCreateAndAssignment", function(req, res) {
 
 
 restService.get("/", function(req, res) {
-  res.send(JSON.stringify({ a: 1 }));
-  return res  
+  res.send(program);
+  return res;  
 });
 
 restService.listen(process.env.PORT || 8000, function() {
