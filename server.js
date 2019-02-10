@@ -5,6 +5,8 @@ const bodyParser = require("body-parser");
 
 const restService = express();
 
+var program = "";
+
 restService.use(
   bodyParser.urlencoded({
     extended: true
@@ -13,14 +15,21 @@ restService.use(
 
 restService.use(bodyParser.json());
 
+
+
 restService.post("/dataCreateAndAssignment", function(req, res) {
+  program = program.concat ('\n' + req.body.queryResult.queryText);
+  console.log(req.body.queryResult.queryText);
+  console.log("prog")
+  console.log(program);
+
+
   var speech =
-    req.body.result && req.body.result.parameters && req.body.result.parameters ? 
-    req.body.result.parameters: "Seems like some problem. Speak again.";
-      console.log (req.body.result.parameters);
-      console.log("here"); 
+    req.body.queryResult && req.body.queryResult.parameters ? req.body.queryResult.parameters: "Seems like some problem. Speak again.";
+    //console.log (req.body.queryResult.parameters);
+    //console.log("here"); 
   return res.json({
-    speech: speech,
+    speech: req.body.queryResult,
     displayText: speech,
     source: "webhook-echo-sample"
   });
