@@ -64,6 +64,7 @@ restService.post("/", function (req, res) {
 
     if (intent === "Default Welcome Intent") {
       program = "";
+      speech = "";
       return res.json({});
     }
 
@@ -93,10 +94,8 @@ restService.post("/", function (req, res) {
       a.push(program);
       //return program to the dialog flow
       return res.json({
-        fulfillmentText: "displayed response",
-        fulfillmentMessages: [
-          {text: {"text": a}}
-        ],
+        fulfillmentText: "displayed&spoken response",
+        fulfillmentMessages: a,
         source: "talk2code",
       });
     }
