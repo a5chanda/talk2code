@@ -1,0 +1,122 @@
+[
+  {
+    "id": "e369362b-9292-4515-ba15-6e081b13b88e",
+    "data": [
+      {
+        "text": "x ",
+        "userDefined": false
+      },
+      {
+        "text": "plus plus",
+        "alias": "arithmetic",
+        "meta": "@arithmetic",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549807850
+  },
+  {
+    "id": "c145bd7d-b7f2-4f0e-9d37-124884447511",
+    "data": [
+      {
+        "text": "Increment",
+        "alias": "arithmetic",
+        "meta": "@arithmetic",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "x",
+        "alias": "names",
+        "meta": "@names",
+        "userDefined": true
+      },
+      {
+        "text": " by ",
+        "userDefined": false
+      },
+      {
+        "text": "1",
+        "alias": "equalsValue",
+        "meta": "@equalsValue",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549807152
+  },
+  {
+    "id": "56b887ed-9efe-4d33-8493-2ead65760abd",
+    "data": [
+      {
+        "text": "Add",
+        "alias": "arithmetic",
+        "meta": "@arithmetic",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "equalsValue",
+        "meta": "@equalsValue",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "x",
+        "alias": "names",
+        "meta": "@names",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549764174
+  },
+  {
+    "id": "1a38cda0-a750-434b-84ca-35e0d4fb30c3",
+    "data": [
+      {
+        "text": "Add",
+        "alias": "arithmetic",
+        "meta": "@arithmetic",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "x",
+        "alias": "names",
+        "meta": "@names",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "y",
+        "alias": "equalsValue",
+        "meta": "@equalsValue",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549764174
+  }
+]

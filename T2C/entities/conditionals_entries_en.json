@@ -1,0 +1,79 @@
+[
+  {
+    "value": "\u0026\u0026",
+    "synonyms": [
+      "and"
+    ]
+  },
+  {
+    "value": "||",
+    "synonyms": [
+      "or"
+    ]
+  },
+  {
+    "value": "!",
+    "synonyms": [
+      "not",
+      "is not"
+    ]
+  },
+  {
+    "value": "\u003d\u003d",
+    "synonyms": [
+      "equals",
+      "equal to",
+      "equals to",
+      "is equal to",
+      "is equals to",
+      "is",
+      "equal"
+    ]
+  },
+  {
+    "value": "\u003d\u003d\u003d",
+    "synonyms": [
+      "type equals",
+      "type equal to",
+      "type equals to",
+      "is type equal to",
+      "is type equals to",
+      "tyoe equal"
+    ]
+  },
+  {
+    "value": "\u003c",
+    "synonyms": [
+      "less than"
+    ]
+  },
+  {
+    "value": "\u003e",
+    "synonyms": [
+      "greater than"
+    ]
+  },
+  {
+    "value": "!\u003d",
+    "synonyms": [
+      "not equals to",
+      "not equal to",
+      "not equals",
+      "not equal"
+    ]
+  },
+  {
+    "value": "\u003c\u003d",
+    "synonyms": [
+      "less than equal to",
+      "less than equals to"
+    ]
+  },
+  {
+    "value": "\u003e\u003d",
+    "synonyms": [
+      "greater than equal to",
+      "greater than equals to"
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "value": "start",
+    "synonyms": [
+      "start"
+    ]
+  },
+  {
+    "value": "new",
+    "synonyms": [
+      "new",
+      "new script"
+    ]
+  },
+  {
+    "value": "start over",
+    "synonyms": [
+      "start over",
+      "start-over"
+    ]
+  },
+  {
+    "value": "begin",
+    "synonyms": [
+      "begin"
+    ]
+  },
+  {
+    "value": "new-script",
+    "synonyms": [
+      "new-script"
+    ]
+  }
+]

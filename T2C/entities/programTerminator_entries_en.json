@@ -1,0 +1,32 @@
+[
+  {
+    "value": "end",
+    "synonyms": [
+      "End"
+    ]
+  },
+  {
+    "value": "Complete",
+    "synonyms": [
+      "Complete"
+    ]
+  },
+  {
+    "value": "Stop",
+    "synonyms": [
+      "Stop"
+    ]
+  },
+  {
+    "value": "Terminate",
+    "synonyms": [
+      "Terminate"
+    ]
+  },
+  {
+    "value": "Compile",
+    "synonyms": [
+      "Compile"
+    ]
+  }
+]

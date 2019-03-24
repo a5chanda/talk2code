@@ -1,0 +1,37 @@
+{
+  "id": "2fa03d6c-0e0f-4e6d-a36a-cc99a9bb43cc",
+  "name": "compile",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "57675a27-e1bf-4960-b1bb-dcac716b25e5",
+          "required": false,
+          "dataType": "@programTerminator",
+          "name": "programTerminator",
+          "value": "$programTerminator",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549817107,
+  "fallbackIntent": false,
+  "events": []
+}

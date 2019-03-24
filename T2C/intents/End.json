@@ -1,0 +1,37 @@
+{
+  "id": "3437e316-4033-410a-a785-bd5dcfdce18e",
+  "name": "End",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "cb98b5c6-6d49-47f9-9f2a-8776237aa98e",
+          "required": false,
+          "dataType": "@programTerminator",
+          "name": "programTerminator",
+          "value": "$programTerminator",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Here is your program:"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549814157,
+  "fallbackIntent": false,
+  "events": []
+}

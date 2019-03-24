@@ -1,0 +1,32 @@
+[
+  {
+    "value": "equal",
+    "synonyms": [
+      "equal"
+    ]
+  },
+  {
+    "value": "equals",
+    "synonyms": [
+      "equals"
+    ]
+  },
+  {
+    "value": "equals to",
+    "synonyms": [
+      "equals to"
+    ]
+  },
+  {
+    "value": "is",
+    "synonyms": [
+      "is"
+    ]
+  },
+  {
+    "value": "as",
+    "synonyms": [
+      "as"
+    ]
+  }
+]

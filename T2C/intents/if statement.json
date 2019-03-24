@@ -1,0 +1,53 @@
+{
+  "id": "58e016c7-fe28-4cf3-99bf-16472702d2ef",
+  "name": "if statement",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c99f2df9-1924-4674-b93d-27d3cd8a75ad",
+          "required": false,
+          "dataType": "@conditionals",
+          "name": "conditionals",
+          "value": "$conditionals",
+          "isList": true
+        },
+        {
+          "id": "0de9dfc2-a50f-4e20-9ca9-8b02b2c930e5",
+          "required": true,
+          "dataType": "@names",
+          "name": "variableNames",
+          "value": "$variableNames",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "$variableNames"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "44df3386-791f-4f98-9acc-1a2c7ca30607",
+          "required": true,
+          "dataType": "@if",
+          "name": "if",
+          "value": "$if",
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549809256,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,57 @@
+{
+  "id": "7d6ee6df-9f61-47d2-b20c-c0f3098d3ac4",
+  "name": "dataCreateAndAssignment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "15567d33-b11e-4d52-93a3-e3a7ad1a1118",
+          "required": true,
+          "dataType": "@init",
+          "name": "init",
+          "value": "$init",
+          "prompts": [],
+          "isList": false
+        },
+        {
+          "id": "240ff823-f90f-49d8-834a-79ab1d94d051",
+          "required": false,
+          "dataType": "@init",
+          "name": "type",
+          "value": "$type",
+          "isList": false
+        },
+        {
+          "id": "1bcd96c2-70b6-44d3-b182-e74a5739b264",
+          "required": true,
+          "dataType": "@names",
+          "name": "variableName",
+          "value": "$variableName",
+          "isList": false
+        },
+        {
+          "id": "f3c4e74a-abeb-4caf-a488-100f2e1a7fa5",
+          "required": false,
+          "dataType": "@equalsTo_creation",
+          "name": "equalsTo_creation",
+          "value": "$equalsTo_creation",
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1549812795,
+  "fallbackIntent": false,
+  "events": []
+}

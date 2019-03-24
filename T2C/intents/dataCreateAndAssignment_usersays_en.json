@@ -1,0 +1,623 @@
+[
+  {
+    "id": "10ad4d2f-2193-4d7c-b420-0ff7b0f31a74",
+    "data": [
+      {
+        "text": "set",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "x",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "as",
+        "alias": "equalsTo_creation",
+        "meta": "@equalsTo_creation",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549804785
+  },
+  {
+    "id": "39dff37c-91e6-432e-b567-ffdc245a6a22",
+    "data": [
+      {
+        "text": "initialize",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": "  ",
+        "userDefined": false
+      },
+      {
+        "text": "nini",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "as",
+        "alias": "equalsTo_creation",
+        "meta": "@equalsTo_creation",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "fif",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549804785
+  },
+  {
+    "id": "94bc65cc-7586-4353-8faa-ef7af9bb82d8",
+    "data": [
+      {
+        "text": "create",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "abc",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "as",
+        "alias": "equalsTo_creation",
+        "meta": "@equalsTo_creation",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "841",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549804785
+  },
+  {
+    "id": "1f624bb8-e148-4a09-9a0a-61ab24566d07",
+    "data": [
+      {
+        "text": "make",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "x",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "equal",
+        "alias": "equalsTo_creation",
+        "meta": "@equalsTo_creation",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "zoozo",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549804785
+  },
+  {
+    "id": "d6fb4a8c-c583-4e48-b4da-a4a0f88d3132",
+    "data": [
+      {
+        "text": "create",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "facts",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "equal",
+        "alias": "equalsTo_creation",
+        "meta": "@equalsTo_creation",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "mooncake",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549804785
+  },
+  {
+    "id": "1e263443-2c24-4c75-9923-508b45f37bd3",
+    "data": [
+      {
+        "text": "create",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "zebra",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "equals",
+        "alias": "equalsTo_creation",
+        "meta": "@equalsTo_creation",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "295",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549804785
+  },
+  {
+    "id": "1a2f2cca-39e3-4003-8882-9810f8a44cea",
+    "data": [
+      {
+        "text": "make",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "variable",
+        "alias": "type",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "jojo",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "as",
+        "alias": "equalsTo_creation",
+        "meta": "@equalsTo_creation",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "nonsense wording character",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549804785
+  },
+  {
+    "id": "f38b9b00-fa4e-4cca-baad-e62d47b6848f",
+    "data": [
+      {
+        "text": "initialize",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "coco",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549761436
+  },
+  {
+    "id": "f80f8af2-973f-4475-8eb4-91c37268adc3",
+    "data": [
+      {
+        "text": "make",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "q",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1549761215
+  },
+  {
+    "id": "e3717be3-6472-4060-96c0-ace56da53de3",
+    "data": [
+      {
+        "text": "initialize",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "twitter",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549760628
+  },
+  {
+    "id": "7ddfe34a-e5bd-40cd-a5b6-b9ce6ef65496",
+    "data": [
+      {
+        "text": "create",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "counter",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549760628
+  },
+  {
+    "id": "f859ce86-0501-40e5-bd51-01c32211bd94",
+    "data": [
+      {
+        "text": "make",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "zebra",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549760628
+  },
+  {
+    "id": "0364e7ab-9636-42cb-9c42-52503ea2ea7c",
+    "data": [
+      {
+        "text": "Make",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "variable",
+        "alias": "type",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "qwqwe",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "equals",
+        "alias": "equalsTo_creation",
+        "meta": "@equalsTo_creation",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549758804
+  },
+  {
+    "id": "9a8ce758-cbf1-45c1-bce2-3c85c929656a",
+    "data": [
+      {
+        "text": "Create",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "variable",
+        "alias": "type",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "id",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "equals",
+        "alias": "equalsTo_creation",
+        "meta": "@equalsTo_creation",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549758804
+  },
+  {
+    "id": "e1aba765-f0c7-4770-ab8f-bc5a3ca7967e",
+    "data": [
+      {
+        "text": "Create",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "variable",
+        "alias": "type",
+        "meta": "@init",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "z",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549808902
+  },
+  {
+    "id": "6cd9ee91-6457-4a62-b1f4-ea404e7643d6",
+    "data": [
+      {
+        "text": "Make",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "variable",
+        "alias": "type",
+        "meta": "@init",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "y",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549808902
+  },
+  {
+    "id": "55eb9af4-52b9-4f30-9cdb-e0f0b558ab38",
+    "data": [
+      {
+        "text": "Create",
+        "alias": "init",
+        "meta": "@init",
+        "userDefined": false
+      },
+      {
+        "text": " a ",
+        "userDefined": false
+      },
+      {
+        "text": "variable",
+        "alias": "type",
+        "meta": "@init",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "x",
+        "alias": "variableName",
+        "meta": "@names",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1549808902
+  }
+]

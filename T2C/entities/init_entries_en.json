@@ -1,0 +1,18 @@
+[
+  {
+    "value": "Create",
+    "synonyms": [
+      "make",
+      "create",
+      "initialize",
+      "set"
+    ]
+  },
+  {
+    "value": "variable",
+    "synonyms": [
+      "variable",
+      "a variable"
+    ]
+  }
+]

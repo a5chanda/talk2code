@@ -1,0 +1,67 @@
+[
+  {
+    "value": "+",
+    "synonyms": [
+      "+",
+      "add",
+      "increment by",
+      "plus"
+    ]
+  },
+  {
+    "value": "-",
+    "synonyms": [
+      "-",
+      "subtract",
+      "minus",
+      "take away",
+      "decrement by one"
+    ]
+  },
+  {
+    "value": "%",
+    "synonyms": [
+      "%",
+      "modulus",
+      "mod"
+    ]
+  },
+  {
+    "value": "/",
+    "synonyms": [
+      "/",
+      "divide",
+      "over",
+      "divided"
+    ]
+  },
+  {
+    "value": "*",
+    "synonyms": [
+      "*",
+      "multiply",
+      "times",
+      "multiplied",
+      "multiplied by"
+    ]
+  },
+  {
+    "value": "++",
+    "synonyms": [
+      "++",
+      "increase by one",
+      "increment by one",
+      "increment by 1",
+      "plus plus"
+    ]
+  },
+  {
+    "value": "--",
+    "synonyms": [
+      "--",
+      "decrement by 1",
+      "decrease by 1",
+      "minus minus"
+    ]
+  }
+]

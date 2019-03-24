@@ -20,7 +20,7 @@ restService.use(bodyParser.json());
 
 function dataCreationAndAssignment(phase, variableName, equalsToCreation) {
   if (equalsToCreation != null) {
-    return 'var ' + variableName + ' = ' + phase.split(equalsToCreation).pop() + ';';
+    return 'var ' + variableName + ' =' + phase.split(equalsToCreation).pop() + ';';
   }
   return 'var ' + variableName + ' ;';
 };
@@ -71,7 +71,7 @@ restService.post("/", function (req, res) {
     //create data assignment
     if (intent === "dataCreateAndAssignment") {
       console.log("dataCreation");
-      program = program + ' ' + dataCreationAndAssignment(req.body.queryResult.queryText, req.body.queryResult.parameters.variableName, req.body.queryResult.parameters.equalsTo_creation);
+      program = program + '' + dataCreationAndAssignment(req.body.queryResult.queryText, req.body.queryResult.parameters.variableName, req.body.queryResult.parameters.equalsTo_creation);
     }
 
     //if statement
