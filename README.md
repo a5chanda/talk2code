@@ -1,1 +1,3 @@
-# talk2code
+# Talk2code
+
+Talk2Code is a platform that enables everybody to feel included in the programming community. Currently, the traditional process of programming with mouse and keyboard is very difficult for people with disabilities, arthritis and RSI. This software allows voice as a medium to allow users to code their ideas into a reality and allowing a new way to learn and enjoy coding. The platform leverages Google's Natural Language Understanding(NLU) using DialogFlow, communicates with Google Assistant, and utilizes a Node.js server to parse the speech that is processed through Dialogflow into code.
